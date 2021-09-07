@@ -1,0 +1,71 @@
+void main(){
+  String name = "Syed Abdul Sami";
+  print("Name : " + name);
+ String Fname = "Syed Abdul Razzaq";
+  print("Father  Name :" + Fname);
+ var roll = 1277444;
+  print("Roll Number : ${roll}");
+ var eng = 90;
+  var math = 77;
+  var urdu = 60;
+  var phy = 80;
+  var che = 70;
+  
+  if(eng >= 33){
+  print("English : ${eng}  (PASS)");
+  }
+  else{
+  print("English : ${eng} (FAIL)");
+    
+  }
+  if(math >= 33){
+  print("Math : ${math}  (PASS)");
+  }
+  else{
+  print("Math : ${math} (FAIL)");
+  }
+  if(urdu >= 33){
+  print("Urdu : ${urdu}  (PASS)");
+  }
+  else{
+  print("Urdu : ${urdu} (FAIL)");
+  }
+  if(phy >= 33){
+  print("Physic : ${phy}  (PASS)");
+  }
+  else{
+  print("Physic : ${phy} (FAIL)");
+  }
+  if(che >= 33){
+  print("Chemistry : ${che}  (PASS)");
+  }
+  else{
+  print("Chemistry : ${che} (FAIL)");
+  }
+
+  var tmark = 500;
+  print("Total Mark  : ${tmark}");
+  
+  var obtMark = eng + math + urdu + phy + che ;
+  print("Obtain Mark : ${obtMark}");
+  var avg = obtMark/tmark*100;
+  print("Percentage : ${avg}");
+  if(avg >= 85){
+    print("Grade : A+");
+  }
+   else if(avg >= 65){
+    print("Grade : A");
+  }
+  else if(avg >= 55){
+    print("Grade : B");
+  }
+  else if(avg >= 45){
+    print("Grade : c");
+  }
+  else if(avg >= 40){
+    print("Grade  : D");
+  }
+  else{
+    print(" Fail");
+  }
+ }
