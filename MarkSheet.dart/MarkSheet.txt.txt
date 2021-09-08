@@ -48,8 +48,9 @@ void main(){
   
   var obtMark = eng + math + urdu + phy + che ;
   print("Obtain Mark : ${obtMark}");
-  var avg = obtMark/tmark*100;
-  print("Percentage : ${avg}");
+  double avg = (obtMark/tmark)*100;
+  var converted_avg = avg.toInt();
+  print("Percentage : ${converted_avg}");
   if(avg >= 85){
     print("Grade : A+");
   }
